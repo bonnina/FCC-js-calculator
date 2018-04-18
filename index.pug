@@ -1,0 +1,37 @@
+doctype html 
+html
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="style.css")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+  body 
+    .container-fluid.text-center
+      .calculator
+          p#name freeCodeCamp calculator
+          .screen
+              p#number.text-right 0  
+          .keys
+              button.clear.btn C/CE
+              button.btn.op.sr &radic;
+              button.btn.op(value = "/") &divide;
+              button.btn(value = "7") 7
+              button.btn(value = "8") 8
+              button.btn(value = "9") 9
+              button.btn.op(value = "*") x
+              button.btn(value = "4") 4
+              button.btn(value = "5") 5
+              button.btn(value = "6") 6
+              button.btn.op(value = "-") -
+              button.btn(value = "1") 1
+              button.btn(value = "2") 2
+              button.btn(value = "3") 3
+              button.btn.invisible
+              .bottomRow
+               button.btn(value = "0") 0
+               button.btn.des(value = ".") .
+               button.btn.eq(value = "=") =
+               button#tall.btn.op(value = "+") +
+      .footer
+    script(src="script.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+	
