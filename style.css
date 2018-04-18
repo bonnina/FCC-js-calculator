@@ -1,0 +1,82 @@
+body {
+  background-color: #b3cccc;
+  width: 100%;
+  height: 100%;
+}
+
+.calculator {
+  margin: 90px auto 80px auto;
+  width: 300px;
+  height: 400px;
+  background-color: #404040;
+  border-radius: 15px;
+  border: 3px solid #666666;  
+  box-shadow: 8px 1px 15px 0 #333333, inset -1px -1px 13px 0 #8c8c8c; 
+}
+
+#name {
+  margin: 20px auto 20px auto;
+  font: 19px sans-serif;
+  color: #999999;
+}
+
+.screen {
+  margin: auto 20px 15px 20px;
+  background-color: #a3a375;
+  height: 55px;
+  border-radius: 5px;
+  border: 2px solid #8a8a5c; 
+  font: 46px sans-serif;
+}
+
+.keys {
+  height: 300px;
+  width: 306px;
+  display: inline-block;
+  margin-left: -5px;
+}
+
+.btn {
+  margin: 4px 4px 5.7px 4px; 
+  width: 54px;
+  height: 37px;
+  font: 22px sans-serif;
+  background-color: #ccccb3;
+  box-shadow: 2px 4.5px 3.8px 0 #0d0d0d, inset -1px -1px 13px 0 #808080; 
+}
+
+.btn:focus {
+   outline: none !important;
+}
+
+.clear {
+  width: 120px;
+  background-color: #527a7a;
+  box-shadow: 1px 3.3px 3px 0 #0d0d0d, inset -1px -1px 13px 0 #666666; 
+}
+
+.clear:active {
+  outline: none;
+  box-shadow: none;
+  transform: translate(0, 0.1vw);
+}
+
+.bottomRow {
+  margin-left: -65px;
+}
+
+#tall {
+  height: 85px;
+  /*
+  position: absolute;
+  left: 197px;
+  */
+  position: absolute;
+  margin-top: -43px;
+  margin-left: 7px;
+}
+
+.op {
+  color: #991f00;
+}
+
